@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div className="navbar m-3.5 bg-base-300 rounded-btn px-6 w-[calc(100vw-1.9rem)] background-filter  transition-all">
+    <div className="navbar m-3.5 bg-base-300 rounded-btn px-6 w-[calc(100vw-1.9rem)] background-filter transition-all sticky">
       <div className="navbar-start">
         <Link to="/" className="btn btn-ghost normal-case text-xl items-center">
           <Logo width="30px" height="30px" />

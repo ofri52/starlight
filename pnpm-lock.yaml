@@ -45,6 +45,9 @@ importers:
         specifier: ^0.7.7
         version: 0.7.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@catppuccin/daisyui':
+        specifier: ^1.2.1
+        version: 1.2.1(daisyui@4.12.14(postcss@8.4.47))
       '@eslint/js':
         specifier: ^9.13.0
         version: 9.13.0
@@ -179,6 +182,14 @@ packages:
   '@babel/types@7.26.0':
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
+
+  '@catppuccin/daisyui@1.2.1':
+    resolution: {integrity: sha512-smtDviKKHp/NgReDgNEfRoWxwo+Q4OXX1joaOmKzNZ7oFk2xNWz9D+17ihOt1IsebmQd7i27PkHoO2qR6SZHzQ==}
+    peerDependencies:
+      daisyui: ^4.10.2
+
+  '@catppuccin/palette@1.7.1':
+    resolution: {integrity: sha512-aRc1tbzrevOTV7nFTT9SRdF26w/MIwT4Jwt4fDMc9itRZUDXCuEDBLyz4TQMlqO9ZP8mf5Hu4Jr6D03NLFc6Gw==}
 
   '@esbuild/aix-ppc64@0.21.5':
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
@@ -2999,6 +3010,13 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
+
+  '@catppuccin/daisyui@1.2.1(daisyui@4.12.14(postcss@8.4.47))':
+    dependencies:
+      '@catppuccin/palette': 1.7.1
+      daisyui: 4.12.14(postcss@8.4.47)
+
+  '@catppuccin/palette@1.7.1': {}
 
   '@esbuild/aix-ppc64@0.21.5':
     optional: true

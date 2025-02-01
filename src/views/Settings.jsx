@@ -4,17 +4,11 @@ import Atom from "../lib/Atom.js";
 import { BannerAd, NativeBannerAd } from "../components/Ad.jsx";
 
 function Settings() {
-  const adsstate = () => JSON.parse(localStorage.getItem("ads")) ?? true;
   const setTheme = useSetRecoilState(Atom);
   const [selectedCloak, setSelectedCloak] = useState("default");
-  const [ads, setAds] = useState(adsstate());
   const [searchEngine, setSearchEngine] = useState(
     localStorage.getItem("searchEngine") || "google"
   );
-
-  useEffect(() => {
-    localStorage.setItem("ads", JSON.stringify(ads));
-  }, [ads]);
 
   const handleThemeChange = (e) => {
     const newTheme = e.target.value;
@@ -27,27 +21,31 @@ function Settings() {
     localStorage.setItem("cloak", e.target.value);
   };
 
-  const handleAdsChange = (e) => {
-    const isChecked = e.target.checked;
-    setAds(isChecked);
-    localStorage.setItem("ads", JSON.stringify(isChecked));
-    window.location.reload();
-  };
-
   const handleSearchEngineChange = (e) => {
     const newEngine = e.target.value;
     setSearchEngine(newEngine);
     localStorage.setItem("searchEngine", newEngine);
 
-    // Example URL templates
+    const faviconPath = `/media/cloaks/${newEngine}.png`;
+    localStorage.setItem("searchEngineFavicon", faviconPath);
+
     const searchEngines = {
       google: "https://www.google.com/search?q=%s",
       bing: "https://www.bing.com/search?q=%s",
       ddg: "https://duckduckgo.com/?q=%s",
+      brave: "https://search.brave.com/search?q=%s",
     };
 
     chemical.setStore("searchEngine", searchEngines[newEngine]);
   };
+
+  useEffect(() => {
+    const savedFavicon = localStorage.getItem("searchEngineFavicon");
+    if (!savedFavicon && searchEngine) {
+      const defaultFaviconPath = `/media/cloaks/${searchEngine}.png`;
+      localStorage.setItem("searchEngineFavicon", defaultFaviconPath);
+    }
+  }, []);
 
   useEffect(() => {
     if (selectedCloak !== "default") {
@@ -74,6 +72,12 @@ function Settings() {
           >
             <option value="sunset">Default</option>
             <option value="light">Light</option>
+            <option value="youtube">Youtube</option>
+            <option value="surfshark">Surfshark Blue</option>
+            <option value="mocha">Catppuccin Mocha</option>
+            <option value="macchiato">Catppuccin Macchiato</option>
+            <option value="latte">Catppuccin Latte</option>
+            <option value="frappe">Catppuccin Frappe</option>
             <option value="dark">Dark</option>
             <option value="cupcake">Cupcake</option>
             <option value="lunaar">Lunaar</option>
@@ -103,16 +107,25 @@ function Settings() {
             onChange={handleCloakChange}
             value={localStorage.getItem("cloak")}
           >
-            <option value="">None </option>
-            <option value="drive">Google Drive </option>
-            <option value="edpuzzle">Edpuzzle </option>
-            <option value="wikipedia">Wikipedia </option>
-            <option value="canvas">Canvas </option>
-            <option value="classroom">Classroom </option>
-            <option value="zoom">Zoom </option>
+            <option selected hidden>
+              Select a cloak
+            </option>
+            <option value="canvas">Canvas</option>
+            <option value="wikipedia">Wikipedia</option>
+            <option value="edpuzzle">Edpuzzle</option>
+            <option value="drive">Google Drive</option>
+            <option value="classroom">Google Classroom</option>
+            <option value="zoom">Zoom</option>
+            <option value="khan">Khan Academy</option>
+            <option value="desmos">Desmos</option>
+            <option value="gforms">Google Forms</option>
+            <option value="quizlet">Quizlet</option>
           </select>
           <div className="mt-3">
-            <button className="btn btn-primary" onClick={window.cloak.reset}>
+            <button
+              className="btn btn-primary"
+              onClick={() => window.cloak.reset()}
+            >
               Reset Cloak
             </button>
           </div>
@@ -138,22 +151,10 @@ function Settings() {
             <option value="google">Google</option>
             <option value="bing">Bing</option>
             <option value="ddg">DuckDuckGo</option>
+            <option value="brave">Brave</option>
           </select>
         </Card>
-        <Card
-          title="Ads (Adsterra)"
-          description="Toggles the ads on Starlight"
-          E="(starlight needs money to run)"
-        >
-          <input
-            type="checkbox"
-            className="toggle toggle-primary toggle-lg"
-            checked={ads}
-            onChange={handleAdsChange}
-          />
-        </Card>
       </div>
-      <NativeBannerAd />
     </div>
   );
 }

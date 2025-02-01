@@ -72,17 +72,18 @@ function Games() {
 "
                 />
                 <p className="mt-2 font-bold">{game.name}</p>
-                {game.new && <p className="badge badge-primary">NEW</p>}
-                {game.top && <p className="badge badge-primary">🔥</p>}
-                {game.exp && <p className="badge badge-primary">🧪</p>}
-                {game.updated && (
-                  <p className="badge badge-primary">🆕 Updated</p>
-                )}
+                <div className="flex flex-row gap-2">
+                  {game.new && <p className="badge badge-primary">NEW</p>}
+                  {game.top && <p className="badge badge-primary">🔥</p>}
+                  {game.exp && <p className="badge badge-primary">🧪</p>}
+                  {game.updated && (
+                    <p className="badge badge-primary">🆕 Updated</p>
+                  )}
+                </div>
               </div>
             );
           })}
         </div>
-        <NativeBannerAd />
       </div>
     </>
   );

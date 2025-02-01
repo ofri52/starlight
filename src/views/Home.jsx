@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../components/Logo";
-import { Link } from "react-router-dom"; // Adjust import if using a different routing method
+import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { LuGamepad2 } from "react-icons/lu";
 import { BannerAd } from "../components/Ad";

@@ -15,7 +15,7 @@ function Play() {
   console.log(gameUrl);
 
   return (
-    <div className="flex flex-col justify-center items-center aspect-video">
+    <div className="flex flex-col items-center aspect-video overflow-hidden">
       <div className="card bg-base-300 w-[calc(100vw-9.9rem)] h-[calc(100vh-9.9rem)]  shadow-xl flex overflow-hidden">
         <iframe
           ref={iframe}

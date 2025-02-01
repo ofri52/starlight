@@ -1,7 +1,7 @@
 [
   {
-    "name": "Request",
-    "image": "gforms.png",
+    "name": "Request a game",
+    "image": "gforms.webp",
     "url": "https://forms.gle/19kup3CDeHMgBw696",
     "new": true,
     "proxy": true
@@ -9,20 +9,70 @@
   {
     "name": "Monkey Mart",
     "image": "monkey-mart-1-optimized.webp",
-    "url": "https://1183520a-1ec4-4f33-a7ce-7673c60f912c.poki-gdn.com/99a3a736-d616-4a31-8aea-efda5562156b/index.html?country=US&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-f0e2210ee52f43a739fcb9af425ccdc48e0f4e6f&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fmonkey-mart&amp;hoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=4%2C52%2C64%2C69%2C91%2C96%2C103%2C118%2C414%2C839%2C929%2C1014%2C1126%2C1140%2C1141%2C1143%2C1147%2C1163%2C1187%2C1190%2C1193%2C1205&amp;ab=6b2076f9c2fa162199fe491f83ee1f2f273f2222&amp;experiment=a-d50e9ec5&amp;special_condition=landing&amp;game_id=1183520a-1ec4-4f33-a7ce-7673c60f912c&amp;game_version_id=99a3a736-d616-4a31-8aea-efda5562156b&amp;inspector=0&amp;csp=1",
+    "url": "https://www.rapidwebapp.com/game/monkeymart/index.html",
     "new": true,
     "proxy": true
   },
   {
     "name": "Sausage Flip",
-    "image": "sausageflip.png",
+    "image": "sausageflip.webp",
     "url": "https://b1d3aec5-9ce6-4594-a03c-b16800650df0.poki-gdn.com/5ca822fd-ad50-4b5a-8817-91a4e4f0e1c1/index.html?country=US&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-f0e2210ee52f43a739fcb9af425ccdc48e0f4e6f&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fsausage-flip&amp;hoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=9%2C37%2C103%2C839%2C1013%2C1137%2C1139%2C1140%2C1141%2C1190&amp;ab=6b2076f9c2fa162199fe491f83ee1f2f273f2222&amp;experiment=a-d50e9ec5&amp;game_id=b1d3aec5-9ce6-4594-a03c-b16800650df0&amp;game_version_id=5ca822fd-ad50-4b5a-8817-91a4e4f0e1c1&amp;inspector=0&amp;csp=1",
     "new": true,
     "proxy": true
   },
   {
+    "name": "BuildNow GG",
+    "image": "buildnow-gg.webp",
+    "url": "https://cloudirector.is-a.dev/BuildNowGG/",
+    "new": true,
+    "proxy": true
+  },
+  {
+    "name": "Baby Sniper In Vietnam",
+    "image": "babysniper.webp",
+    "url": "https://html-classic.itch.zone/html/10450244/index.html",
+    "new": true,
+    "top": true,
+    "proxy": true
+  },
+  {
+    "name": "Block Blast",
+    "image": "blockblast.webp",
+    "url": "https://block-blast.io/game/block-blast/",
+    "new": true,
+    "proxy": true
+  },
+  {
+    "name": "Snow Rider 3D",
+    "image": "snowrider3d.webp",
+    "url": "https://tylerpalko.github.io/gamehub/snowrider3d/",
+    "new": true,
+    "proxy": true
+  },
+  {
+    "name": "Free Simon",
+    "image": "freesimon.webp",
+    "url": "https://block-blast.io/game/block-blast/",
+    "new": true,
+    "proxy": true
+  },
+  {
+    "name": "Burrito Bison: Launcha Libre",
+    "image": "burritobisonlauncha.webp",
+    "url": "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/607721921917323670/burrito-bison-ll.html",
+    "new": true,
+    "proxy": true
+  },
+  {
+    "name": "Smashy Road",
+    "image": "smashyroad.webp",
+    "url": "https://smashy-road.io/smashy-road.embed",
+    "new": true,
+    "proxy": true
+  },
+  {
     "name": "1v1.lol",
-    "image": "1v1.jpg",
+    "image": "1v1.webp",
     "url": "https://1v1.lol",
     "new": false,
     "proxy": true,
@@ -72,7 +122,7 @@
   },
   {
     "name": "HexGL",
-    "image": "hexgl.jpg",
+    "image": "hexgl.webp",
     "url": "https://hexgl.bkcore.com/play/",
     "new": false,
     "proxy": true,
@@ -110,7 +160,7 @@
   },
   {
     "name": "Adventure Drivers",
-    "image": "addrivers.png",
+    "image": "addrivers.webp",
     "url": "https://games.cdn.famobi.com/html5games/a/adventure-drivers/v060/?fg_domain=play.famobi.com&fg_aid=A-FAK0S&fg_uid=7adef9f1-9ddd-437a-b5ee-196da61ba5c7&fg_pid=21580307-9bb3-4130-84d6-32b3ec1c9c97&fg_beat=159&original_ref=https%3A%2F%2Fwww.gamepix.com%2Fplay%2Fadventure-drivers",
     "new": false,
     "proxy": true,
@@ -118,7 +168,7 @@
   },
   {
     "name": "Ages of Conflict",
-    "image": "agesofconflict.jpg",
+    "image": "agesofconflict.webp",
     "url": "https://html-classic.itch.zone/html/8495606/index.html",
     "new": false,
     "proxy": true,
@@ -132,7 +182,7 @@
   },
   {
     "name": "Align 4",
-    "image": "align4.png",
+    "image": "align4.webp",
     "url": "https://ubg100.github.io/games/align4/align4host.html",
     "new": false,
     "proxy": true,
@@ -140,7 +190,7 @@
   },
   {
     "name": "Amidst the Sky",
-    "image": "amidstthesky.png",
+    "image": "amidstthesky.webp",
     "url": "https://www.coolmathgames.com/0-amidst-the-sky/play",
     "new": false,
     "proxy": true,
@@ -148,7 +198,7 @@
   },
   {
     "name": "Among Us",
-    "image": "amongus.png",
+    "image": "amongus.webp",
     "url": "https://amongusplay.online/",
     "new": false,
     "proxy": true,
@@ -180,7 +230,7 @@
   },
   {
     "name": "Awesome Tanks 2",
-    "image": "awesometanks2.jpg",
+    "image": "awesometanks2.webp",
     "url": "https://www.coolmathgames.com/0-awesome-tanks-2/play",
     "new": false,
     "proxy": true,
@@ -188,7 +238,7 @@
   },
   {
     "name": "Backrooms",
-    "image": "backrooms.jpg",
+    "image": "backrooms.webp",
     "url": "https://backroomsgame.io/game/backrooms/",
     "new": false,
     "proxy": true,
@@ -196,7 +246,7 @@
   },
   {
     "name": "Bad Ice Cream",
-    "image": "badicecream.png",
+    "image": "badicecream.webp",
     "url": "https://7fb1fd45-24ce-4ade-b5c4-9ee55ec99526.poki-gdn.com/403f9f7f-52b0-4fa1-a4c2-c46883d239b6/index.html?country=US&ccpaApplies=0&url_referrer=https%3A%2F%2Fwww.nitrome.com%2F&game_id=7fb1fd45-24ce-4ade-b5c4-9ee55ec99526&game_version_id=403f9f7f-52b0-4fa1-a4c2-c46883d239b6&inspector=0",
     "new": false,
     "proxy": true,
@@ -204,7 +254,7 @@
   },
   {
     "name": "Bad Ice Cream 2",
-    "image": "badicecream2.png",
+    "image": "badicecream2.webp",
     "url": "https://f1a2e68b-413f-4ed0-896c-e14bd97e30c3.poki-gdn.com/6dd890f7-a0fc-4b3f-94b0-5a72a476d61f/index.html?country=US&ccpaApplies=0&url_referrer=https%3A%2F%2Fwww.nitrome.com%2F&game_id=f1a2e68b-413f-4ed0-896c-e14bd97e30c3&game_version_id=6dd890f7-a0fc-4b3f-94b0-5a72a476d61f&inspector=0",
     "new": false,
     "proxy": true,
@@ -212,7 +262,7 @@
   },
   {
     "name": "Bad Ice Cream 3",
-    "image": "badicecream3.png",
+    "image": "badicecream3.webp",
     "url": "https://games.poki.com/458768/5b5f8af1-684b-4557-a71b-a865cf564b1d?tag=pg-f0e2210ee52f43a739fcb9af425ccdc48e0f4e6f&site_id=3&iso_lang=en&country=US&poki_url=https://poki.com/en/g/bad-ice-cream-3&hoist=yes&nonPersonalized=n&familyFriendly=n&categories=38,72,103,750,792,839,1154,1156,1180,1191,1194,1197,1201&ab=6b2076f9c2fa162199fe491f83ee1f2f273f2222&experiment=a-d50e9ec5&special_condition=landing",
     "new": false,
     "proxy": true,
@@ -220,7 +270,7 @@
   },
   {
     "name": "Baldi's Basics",
-    "image": "baldi.png",
+    "image": "baldi.webp",
     "url": "https://gamepotty.com/games/baldis-basics/",
     "new": false,
     "proxy": true,
@@ -228,7 +278,7 @@
   },
   {
     "name": "Basket Random",
-    "image": "basketrandom.jpeg",
+    "image": "basketrandom.webp",
     "url": "https://files.twoplayergames.org/files/games/other/Basket_Random/index.html",
     "new": false,
     "proxy": true,
@@ -236,7 +286,7 @@
   },
   {
     "name": "Basketball Stars",
-    "image": "basketballstars.png",
+    "image": "basketballstars.webp",
     "url": "https://5dd33196-015f-11ea-ad56-9cb6d0d995f7.poki-gdn.com/36935933-5052-4dad-80ac-ae6f13020276/index.html?country=US&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-f0e2210ee52f43a739fcb9af425ccdc48e0f4e6f&site_id=3&iso_lang=en&poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fbasketball-stars&hoist=yes&nonPersonalized=n&familyFriendly=n&categories=2%2C76%2C130%2C750%2C775%2C929%2C1103%2C1109%2C1123%2C1139%2C1140%2C1147%2C1168%2C1193%2C1201%2C1202&ab=6b2076f9c2fa162199fe491f83ee1f2f273f2222&experiment=a-d50e9ec5&special_condition=landing&game_id=5dd33196-015f-11ea-ad56-9cb6d0d995f7&game_version_id=36935933-5052-4dad-80ac-ae6f13020276&inspector=0&csp=1",
     "new": false,
     "proxy": true,
@@ -244,7 +294,7 @@
   },
   {
     "name": "Basketbros.io",
-    "image": "baasketbros.jpg",
+    "image": "baasketbros.webp",
     "url": "https://basketbros.io/",
     "new": false,
     "proxy": true,
@@ -264,7 +314,7 @@
   },
   {
     "name": "BitLife",
-    "image": "bitlife.png",
+    "image": "bitlife.webp",
     "url": "https://bitlifesimulator.io/game/bitlife/",
     "new": false,
     "proxy": true,
@@ -344,7 +394,7 @@
   },
   {
     "name": "Chibi Knight",
-    "image": "chibiknight.jpg",
+    "image": "chibiknight.webp",
     "url": "https://chibi-knight.game-files.crazygames.com/ruffle/chibiknight.html?v=1.307",
     "new": true,
     "proxy": true
@@ -727,6 +777,13 @@
     "image": "splash.png",
     "url": "frying-nemo",
     "new": false
+  },
+  {
+    "name": "Geoguessr",
+    "image": "geoguessr.webp",
+    "url": "https://www.geoguessr.com/",
+    "new": true,
+    "proxy": true
   },
   {
     "name": "Game Inside",
@@ -1197,6 +1254,15 @@
     "new": false
   },
   {
+    "name": "Roblox (Now.gg)",
+    "image": "roblox.webp",
+    "url": "https://now.gg/apps/a/10020/b.html",
+    "new": true,
+    "proxy": true,
+    "top": true,
+    "exp": true
+  },
+  {
     "name": "Rabbit Samurai",
     "image": "splash.png",
     "url": "rabbit-samurai",
@@ -1216,7 +1282,7 @@
   },
   {
     "name": "Retro Bowl",
-    "image": "retrobowl.png",
+    "image": "retrobowl.webp",
     "url": "https://retrobowlcollege.co/retro-bowl/",
     "new": false,
     "updated": true,
@@ -1291,9 +1357,10 @@
   },
   {
     "name": "Super Mario 64",
-    "image": "sm64.jpg",
+    "image": "sm64.webp",
     "url": "https://augustberchelmann.com/mario/",
-    "new": true,
+
+    "top": true,
     "proxy": true
   },
   {

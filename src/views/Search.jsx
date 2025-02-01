@@ -102,15 +102,27 @@ function Search() {
 
   return (
     <div className="flex flex-col justify-center items-center">
+      <BannerAd />
       <h1 className="text-7xl font-bold transition-all">{time}</h1>
       <form onSubmit={handleOnSubmit} className="join items-center mt-5">
+        <div className="join-item btn btn-lg btn-primary">
+          <img
+            src={
+              localStorage.getItem("searchEngineFavicon") ||
+              "/media/apps/google.png"
+            }
+            alt=""
+            className="w-10"
+          />
+        </div>
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           type="text"
           className="input input-bordered input-lg transition-width duration-300 w-[500px] focus:w-[520px] focus:input-primary join-item "
           placeholder="Search The web"
-        />
+        ></input>
+
         <button
           className="btn btn-lg btn-primary join-item border-l-0"
           type="submit"
@@ -134,7 +146,6 @@ function Search() {
           );
         })}
       </div>
-      <NativeBannerAd />
     </div>
   );
 }
